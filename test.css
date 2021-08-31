@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+}
+.top {
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.73);
+}
+.title1 {
+    color:#fff;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 65px;
+}
+.main {
+    width: 100%;
+    height: 968px;
+    background-color: #01FFFF;
+}
+.title2 {
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 200px;
+}
