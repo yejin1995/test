@@ -6,22 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="./reset.css"/>
     <link type="text/css" rel="stylesheet" href="./test.css"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <title>오리님과제</title>
 </head>
 <body>
-    <header></header>
-    <div class="header-wrap">header</div>
-    <div class="visual-wrap">
-        <div class="innerbox-visual">visual</div>
-    </div>
-    <section>
-        <div class="title-gallery title">
-            <h1>Gallery</h1>
+    <header>
+        <div class="container">
+            <h1>HEADER</h1>
+        </div>
+    </header>
+    <section class="banner">
+        <h2>visual</h2>
+    </section>
+    <section class="gellery">
+        <div class="container">
+            <h1>gellery</h1>
         </div>
     </section>
+    <footer></footer>
 
-    <footer>
+    <script>
+        $(window).scroll(function(){
 
-    </footer>
+        var top = $(window).scrollTop()
+
+        if(top>50){
+            $('header').addClass('hd_fixed')
+        }else if(top<=50){
+            $('header').removeClass('hd_fixed')
+        }
+
+        });
+    </script>
 </body>
 </html>
