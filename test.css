@@ -10,10 +10,11 @@ header{
     text-align:center;
     line-height:200px;
     font-size:50px;
+    z-index: 1;
 }
 
 header .container{
-    background:rgb(0, 195, 255);
+    background:rgb(0,0,0);
 }
 
 .hd_fixed{
@@ -29,17 +30,27 @@ header h1{
 
 .banner {
     width:100%;
+    height: 700px;
     background-color: aqua;
 }
-.banner h2{
-    color: #fff;
-    font-size: 50px;
-    text-align: center;
+.imgbox {
+    position: relative;
     background-color: blue;
     width: 1170px;
-    justify-content: center;
+    height: 100%;
+    margin: 0 auto;
+}
+.imgbox h2{
+    text-align: center;
+    line-height:600px;
+    color: #fff;
+    font-size: 50px;
 }
 .gellery .container{
-    text-align:center;
-    height:1000px;
+    padding-top: 50px;
+    margin: 0 auto;
+    height: 1000px;
+}
+.gellery .container h1{
+    font-size: 30px;
 }
