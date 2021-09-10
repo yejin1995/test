@@ -50,7 +50,7 @@ header h1{
     padding-top: 50px;
     margin: 0 auto;
 }
-.gellery .container h1{
+.gellery .container p{
     font-size: 30px;
 }
 .gallery_imgbox {
@@ -63,7 +63,7 @@ header h1{
     padding-top: 50px;
     margin: 0 auto;
 }
-.notice .container h1 {
+.notice .container p {
     font-size: 30px;
 }
 .notice_imgbox {
@@ -132,7 +132,7 @@ footer{
     background-color: #555555;
     height: 250px;
 }
-footer h1{
+footer p{
     font-size: 50px;
     color: #fff;
     text-align: center;
